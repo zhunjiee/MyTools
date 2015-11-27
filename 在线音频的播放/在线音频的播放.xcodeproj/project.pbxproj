@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EB192BD1C073382005EC5A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB192BC1C073382005EC5A7 /* main.m */; };
+		8EB192C01C073382005EC5A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB192BF1C073382005EC5A7 /* AppDelegate.m */; };
+		8EB192C31C073382005EC5A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB192C21C073382005EC5A7 /* ViewController.m */; };
+		8EB192C61C073382005EC5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB192C41C073382005EC5A7 /* Main.storyboard */; };
+		8EB192C81C073382005EC5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB192C71C073382005EC5A7 /* Assets.xcassets */; };
+		8EB192CB1C073382005EC5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB192C91C073382005EC5A7 /* LaunchScreen.storyboard */; };
+		8EB192D61C073382005EC5A7 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB192D51C073382005EC5A7 /* _______Tests.m */; };
+		8EB192E11C073382005EC5A7 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB192E01C073382005EC5A7 /* _______UITests.m */; };
+		8EB192F11C07338F005EC5A7 /* ZJAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB192F01C07338F005EC5A7 /* ZJAudioTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB192D21C073382005EC5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB192B01C073382005EC5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB192B71C073382005EC5A7;
+			remoteInfo = "在线音频的播放";
+		};
+		8EB192DD1C073382005EC5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB192B01C073382005EC5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB192B71C073382005EC5A7;
+			remoteInfo = "在线音频的播放";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EB192B81C073382005EC5A7 /* 在线音频的播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "在线音频的播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB192BC1C073382005EC5A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EB192BE1C073382005EC5A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EB192BF1C073382005EC5A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EB192C11C073382005EC5A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EB192C21C073382005EC5A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EB192C51C073382005EC5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EB192C71C073382005EC5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EB192CA1C073382005EC5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EB192CC1C073382005EC5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB192D11C073382005EC5A7 /* 在线音频的播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "在线音频的播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB192D51C073382005EC5A7 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		8EB192D71C073382005EC5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB192DC1C073382005EC5A7 /* 在线音频的播放UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "在线音频的播放UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB192E01C073382005EC5A7 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		8EB192E21C073382005EC5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB192EF1C07338F005EC5A7 /* ZJAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAudioTool.h; sourceTree = "<group>"; };
+		8EB192F01C07338F005EC5A7 /* ZJAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAudioTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB192B51C073382005EC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB192CE1C073382005EC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB192D91C073382005EC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB192AF1C073382005EC5A7 = {
+			isa = PBXGroup;
+			children = (
+				8EB192BA1C073382005EC5A7 /* 在线音频的播放 */,
+				8EB192D41C073382005EC5A7 /* 在线音频的播放Tests */,
+				8EB192DF1C073382005EC5A7 /* 在线音频的播放UITests */,
+				8EB192B91C073382005EC5A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB192B91C073382005EC5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB192B81C073382005EC5A7 /* 在线音频的播放.app */,
+				8EB192D11C073382005EC5A7 /* 在线音频的播放Tests.xctest */,
+				8EB192DC1C073382005EC5A7 /* 在线音频的播放UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB192BA1C073382005EC5A7 /* 在线音频的播放 */ = {
+			isa = PBXGroup;
+			children = (
+				8EB192BE1C073382005EC5A7 /* AppDelegate.h */,
+				8EB192BF1C073382005EC5A7 /* AppDelegate.m */,
+				8EB192C11C073382005EC5A7 /* ViewController.h */,
+				8EB192C21C073382005EC5A7 /* ViewController.m */,
+				8EB192EE1C07338F005EC5A7 /* ZJAudioTool */,
+				8EB192C41C073382005EC5A7 /* Main.storyboard */,
+				8EB192C71C073382005EC5A7 /* Assets.xcassets */,
+				8EB192C91C073382005EC5A7 /* LaunchScreen.storyboard */,
+				8EB192CC1C073382005EC5A7 /* Info.plist */,
+				8EB192BB1C073382005EC5A7 /* Supporting Files */,
+			);
+			path = "在线音频的播放";
+			sourceTree = "<group>";
+		};
+		8EB192BB1C073382005EC5A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB192BC1C073382005EC5A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB192D41C073382005EC5A7 /* 在线音频的播放Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB192D51C073382005EC5A7 /* _______Tests.m */,
+				8EB192D71C073382005EC5A7 /* Info.plist */,
+			);
+			path = "在线音频的播放Tests";
+			sourceTree = "<group>";
+		};
+		8EB192DF1C073382005EC5A7 /* 在线音频的播放UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB192E01C073382005EC5A7 /* _______UITests.m */,
+				8EB192E21C073382005EC5A7 /* Info.plist */,
+			);
+			path = "在线音频的播放UITests";
+			sourceTree = "<group>";
+		};
+		8EB192EE1C07338F005EC5A7 /* ZJAudioTool */ = {
+			isa = PBXGroup;
+			children = (
+				8EB192EF1C07338F005EC5A7 /* ZJAudioTool.h */,
+				8EB192F01C07338F005EC5A7 /* ZJAudioTool.m */,
+			);
+			path = ZJAudioTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB192B71C073382005EC5A7 /* 在线音频的播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB192E51C073382005EC5A7 /* Build configuration list for PBXNativeTarget "在线音频的播放" */;
+			buildPhases = (
+				8EB192B41C073382005EC5A7 /* Sources */,
+				8EB192B51C073382005EC5A7 /* Frameworks */,
+				8EB192B61C073382005EC5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "在线音频的播放";
+			productName = "在线音频的播放";
+			productReference = 8EB192B81C073382005EC5A7 /* 在线音频的播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EB192D01C073382005EC5A7 /* 在线音频的播放Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB192E81C073382005EC5A7 /* Build configuration list for PBXNativeTarget "在线音频的播放Tests" */;
+			buildPhases = (
+				8EB192CD1C073382005EC5A7 /* Sources */,
+				8EB192CE1C073382005EC5A7 /* Frameworks */,
+				8EB192CF1C073382005EC5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB192D31C073382005EC5A7 /* PBXTargetDependency */,
+			);
+			name = "在线音频的播放Tests";
+			productName = "在线音频的播放Tests";
+			productReference = 8EB192D11C073382005EC5A7 /* 在线音频的播放Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EB192DB1C073382005EC5A7 /* 在线音频的播放UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB192EB1C073382005EC5A7 /* Build configuration list for PBXNativeTarget "在线音频的播放UITests" */;
+			buildPhases = (
+				8EB192D81C073382005EC5A7 /* Sources */,
+				8EB192D91C073382005EC5A7 /* Frameworks */,
+				8EB192DA1C073382005EC5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB192DE1C073382005EC5A7 /* PBXTargetDependency */,
+			);
+			name = "在线音频的播放UITests";
+			productName = "在线音频的播放UITests";
+			productReference = 8EB192DC1C073382005EC5A7 /* 在线音频的播放UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB192B01C073382005EC5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ZHUNJIEE;
+				TargetAttributes = {
+					8EB192B71C073382005EC5A7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8EB192D01C073382005EC5A7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8EB192B71C073382005EC5A7;
+					};
+					8EB192DB1C073382005EC5A7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8EB192B71C073382005EC5A7;
+					};
+				};
+			};
+			buildConfigurationList = 8EB192B31C073382005EC5A7 /* Build configuration list for PBXProject "在线音频的播放" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EB192AF1C073382005EC5A7;
+			productRefGroup = 8EB192B91C073382005EC5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB192B71C073382005EC5A7 /* 在线音频的播放 */,
+				8EB192D01C073382005EC5A7 /* 在线音频的播放Tests */,
+				8EB192DB1C073382005EC5A7 /* 在线音频的播放UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB192B61C073382005EC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB192CB1C073382005EC5A7 /* LaunchScreen.storyboard in Resources */,
+				8EB192C81C073382005EC5A7 /* Assets.xcassets in Resources */,
+				8EB192C61C073382005EC5A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB192CF1C073382005EC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB192DA1C073382005EC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB192B41C073382005EC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB192F11C07338F005EC5A7 /* ZJAudioTool.m in Sources */,
+				8EB192C31C073382005EC5A7 /* ViewController.m in Sources */,
+				8EB192C01C073382005EC5A7 /* AppDelegate.m in Sources */,
+				8EB192BD1C073382005EC5A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB192CD1C073382005EC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB192D61C073382005EC5A7 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB192D81C073382005EC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB192E11C073382005EC5A7 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EB192D31C073382005EC5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB192B71C073382005EC5A7 /* 在线音频的播放 */;
+			targetProxy = 8EB192D21C073382005EC5A7 /* PBXContainerItemProxy */;
+		};
+		8EB192DE1C073382005EC5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB192B71C073382005EC5A7 /* 在线音频的播放 */;
+			targetProxy = 8EB192DD1C073382005EC5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EB192C41C073382005EC5A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB192C51C073382005EC5A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EB192C91C073382005EC5A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB192CA1C073382005EC5A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EB192E31C073382005EC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EB192E41C073382005EC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB192E61C073382005EC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "在线音频的播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhunjiee.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EB192E71C073382005EC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "在线音频的播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhunjiee.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EB192E91C073382005EC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "在线音频的播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhunjiee.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/在线音频的播放.app/在线音频的播放";
+			};
+			name = Debug;
+		};
+		8EB192EA1C073382005EC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "在线音频的播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhunjiee.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/在线音频的播放.app/在线音频的播放";
+			};
+			name = Release;
+		};
+		8EB192EC1C073382005EC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "在线音频的播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhunjiee.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "在线音频的播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8EB192ED1C073382005EC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "在线音频的播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhunjiee.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "在线音频的播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB192B31C073382005EC5A7 /* Build configuration list for PBXProject "在线音频的播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB192E31C073382005EC5A7 /* Debug */,
+				8EB192E41C073382005EC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB192E51C073382005EC5A7 /* Build configuration list for PBXNativeTarget "在线音频的播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB192E61C073382005EC5A7 /* Debug */,
+				8EB192E71C073382005EC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EB192E81C073382005EC5A7 /* Build configuration list for PBXNativeTarget "在线音频的播放Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB192E91C073382005EC5A7 /* Debug */,
+				8EB192EA1C073382005EC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EB192EB1C073382005EC5A7 /* Build configuration list for PBXNativeTarget "在线音频的播放UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB192EC1C073382005EC5A7 /* Debug */,
+				8EB192ED1C073382005EC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB192B01C073382005EC5A7 /* Project object */;
+}
