@@ -82,4 +82,21 @@
     return self.frame.origin;
 }
 
+- (void)setCenterX:(CGFloat)centerX {
+    CGPoint temp = self.center;
+    temp.x = centerX;
+    self.center = temp;
+}
+- (CGFloat)centerX {
+    return self.center.x;
+}
+
+- (void)setCenterY:(CGFloat)centerY {
+    CGPoint temp = self.center;
+    temp.y = centerY;
+    self.center = temp;
+}
+- (CGFloat)centerY {
+    return self.center.y;
+}
 @end
